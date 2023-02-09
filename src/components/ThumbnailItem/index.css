@@ -1,0 +1,26 @@
+.thumbnail-item-container {
+  padding-right: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .thumbnail-item-container {
+    padding-right: 10px;
+  }
+}
+
+.thumbNail-img {
+  height: 40px;
+  width: 40px;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 992px) {
+  .thumbNail-img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.active-thumb-img {
+  opacity: 0.9;
+}
