@@ -1,0 +1,65 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 90vh;
+  width: 50vw;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.card-container {
+  background-color: #ffffff;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+}
+.title {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #a35200;
+}
+.head-para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.button {
+  background-color: #e2a139;
+  color: #a35200;
+  border: 0px;
+  width: 80px;
+  height: 20px;
+  border-radius: 5px;
+}
+.heads-tails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+.Total-Heads-Tails {
+  width: 100px;
+  padding: 20px;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+}
